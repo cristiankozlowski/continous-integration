@@ -32,4 +32,4 @@ jobs:
         git config user.email 'gh@cristiankozlowski.com'
         git add .
         git commit -m "Apply Laravel Pint fixes" || exit 0
-        git push origin HEAD:${{ github.head_ref }}
+        git push
